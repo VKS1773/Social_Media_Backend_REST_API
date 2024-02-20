@@ -33,6 +33,7 @@ export const createUser = async (req, res) => {
     name: req.body.name,
     email: req.body.email,
     password: hash,
+    Blogs: [],
   });
 
   try {
